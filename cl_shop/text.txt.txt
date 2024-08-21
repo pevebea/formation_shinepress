@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clshop - site Ecommerce</title>
+</head>
+<body>
+   <!-- Debut entête de la page  -->
+    <div id="entête"  style="background: linear-gradient(100deg, blue, red); color: white; font-size: 30px;padding: 20px;">
+        <marquee behavior="alternate" direction="RIGHT">
+            BIENVENU SUR CLSHOP VOTRE BOUTIQUE EN LIGNE
+        </marquee> 
+    </div>
+    <!-- Fin entête de la page -->
+
+    <!-- Debut banniere -->
+    <div id="banniere">
+        <div class="banniere-image">
+            <img src="images/pc-ac3.jpg" alt="Image d'un ordinateur">
+        </div>
+        <div class="banniere-image">
+            <img src="images/pc-ac4.jpg" alt="Image d'un ordinateur">
+        </div>
+        <div class="banniere-image">
+            <img src="images/pc-ac5.jpg" alt="Image d'un ordinateur">
+        </div>
+    </div>
+    <!-- Fin banniere -->
+    <!-- Debut section contenu de la page -->
+    <div id="contenu">
+        <div id="titre">
+            <h2>Nos Ordinateurs </h2>
+        </div>
+        <div id="liste-produits">
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-h1.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>Hp</h4>
+                    <p>3 500 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-h2.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>Hp</h4>
+                    <p>4 000 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-lenovo.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>pc-lenovo</h4>
+                    <p>3 000 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-lenovo1.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>pc-lenovo</h4>
+                    <p>3 500 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Fin section contenu de la page -->
+   
+</body>
+</html>
+
+<style>
+    .banniere-image imga
+    {
+        width: 300px;
+    }
+    #banniere
+    {
+        display: flex;
+        justify-content: center;
+        margin: 10px;;
+    }
+    .banniere-image
+    {
+        margin: 0 50px;
+    }
+</style>

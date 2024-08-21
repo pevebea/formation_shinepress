@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Beavogui</title>
+</head>
+
+<body>
+    <div class="main-content">
+        <header class="entete">
+            <h3>Bea-Store</h3>
+            <img src="images/menu.png" alt="">
+        </header>
+
+    <div class="metier">
+        <div class="profile">
+            <div class="profile-desc">
+                <h1>Bea Multiservices <span>.</span></h1>
+                <p>
+                   "Nous concevons et développons des applications web et mobiles personnalisées 
+                   pour répondre à vos besoins spécifiques. Fort de notre expertise et 
+                   autres technologies, nous vous accompagnons de la conception à la mise en production."
+                </p>
+            </div>
+            <div class="profile-img">
+                <img src="images/user4.jpg" alt="">
+                <h3 class="user-name">Bea</h3>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="service1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Atque tempore fugiat quo cumque, id tenetur ut dolorem. 
+                    Vel, qui quo sit velit sunt, incidunt ipsum, libero 
+                    reperferendis quisquam iste non.
+                </p>
+            </div>
+            <div class="service2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Atque tempore fugiat quo cumque, id tenetur ut dolorem. 
+                    Vel, qui quo sit velit sunt, incidunt ipsum, libero 
+                    reperferendis quisquam iste non.
+                </p>
+            </div>
+        </div>
+    </div>
+ 
+
+    </div>
+</body>
+</html>
+
+<style>
+    body {
+        background: linear-gradient(90deg, #00ff 72%, #0f0 28%);
+        margin: 4em;
+        
+    }
+
+    h1, .entete h3 {
+        color: #0f0;
+    }
+
+    .entete {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .entete img {
+        width: 2em;
+    }
+
+    .metier {
+        padding: 3em;
+    }
+
+    .profile {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-desc, .profile-img  {
+        width: 500px;
+        /* margin: 50px; */
+    }
+ 
+    .profile-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+ 
+    }
+
+    .profile-img img {
+        width: 300px;
+    }
+
+    .profile-desc {
+        margin: 0 200px 0 0;
+    }
+    .services {
+        display: flex;
+        justify-content: left;
+        width: 500px;
+    }
+
+    .service1 p {
+        margin-right: 30px;
+        justify-content: left;
+
+    }
+    .service2 {
+        margin-left: 30px;
+    }
+
+    .services, .profile-desc p, span {
+        text-align: justify;
+        color: #fff;
+    }
+    .user-name {
+        color: #fff;
+    }
+
+</style>

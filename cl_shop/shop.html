@@ -1,32 +1,407 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CL-SHOP site ecommerce</title>
+    <title>Clshop - site Ecommerce</title>
 </head>
-<body>
-    <!-- entete de la page -->
-    <div>
-        <marquee behavior="alternate" direction="right">
-            Bienvenu sur cl-shop votre ecommerce en ligne
-        </marquee>       
-    </div>
-    <!--fin entete de la page -->
 
-    <!-- banner de la page -->
-    <div>
-        <div>
-            <img src="images/image-boutique/pc-a1.jpg" alt="">
+
+<!-- 
+    nos tabletes
+    nos telephones
+    nos produits electro menager -->
+
+<body>
+   <!-- Debut entête de la page  -->
+    <div id="entête"  style="background: linear-gradient(100deg, blue, red); color: white; font-size: 30px;padding: 20px;">
+        <marquee behavior="alternate" direction="RIGHT">
+            BIENVENU SUR CLSHOP VOTRE BOUTIQUE EN LIGNE
+        </marquee> 
+    </div>
+    <!-- Fin entête de la page -->
+
+    <!-- Debut banniere -->
+    <div id="banniere">
+        <div class="banniere-image">
+            <img src="images/pc-ac3.jpg" alt="Image d'un ordinateur">
         </div>
-        <div>
-            <img src="images/image-boutique/pc-ac2.jpg" alt="">
+        <div class="banniere-image">
+            <img src="images/pc-ac4.jpg" alt="Image d'un ordinateur">
         </div>
-        <div>
-            <img src="images/image-boutique/pc-ac5.jpg" alt="">
+        <div class="banniere-image">
+            <img src="images/pc-ac5.jpg" alt="Image d'un ordinateur">
+        </div>
+    </div>
+    <!-- Fin banniere -->
+    <!-- Debut section contenu de la page -->
+    <div id="contenu">
+        <div id="titre">
+            <h2>Nos Ordinateurs </h2>
+        </div>
+        <div id="liste-produits">
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-h1.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>Hp</h4>
+                    <p>3 500 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-h2.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>Hp</h4>
+                    <p>4 000 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+            <div class="produit">
+                <div class="produit-image">
+                    <img src="images/pc-lenovo.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>pc-lenovo</h4>
+                    <p>3 000 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+            <div class="produit">
+                <div class="produit-image">
+                    <!-- <img src="images/pc-lenovo1.jpg" alt="Image d'un ordinateur"> -->
+                    <img src="images/pc-lenovo1.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="description">
+                    <h4>pc-lenovo</h4>
+                    <p>3 500 000 GNF</p>
+                    <button>acheter</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Fin section contenu de la page -->
+
+    <!-- Seconde section -->
+    <div class="section-tablettes">
+        <div class="titre">
+            <h2>Nos Tablettes</h2>
+        </div>
+
+        <div class="list-produits">
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/iphonet.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>tablette Tecno</h4>
+                    <p>$ 1 500 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/itelt1.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>tablette itel </h4>
+                    <p>$ 800 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/tenta.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>tablette Samsung </h4>
+                    <p>$ 750.99 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/tenta.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>tablette Samsung </h4>
+                    <p>$ 750.99 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+    <!-- troisieme section -->
+    <div class="section-telephones">
+        <div class="titre">
+            <h2>Nos Telephones</h2>
+        </div>
+
+        <div class="list-produits">
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/techno.jpeg" alt="Image d'un telephones">
+                </div>
+                <div class="produit-desc">
+                    <h4>Tecno P9</h4>
+                    <p>$ 1 500 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/sa54.jpg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>Samsung N</h4>
+                    <p>$ 800 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/tecn.jpeg" alt="Image d'un iphone">
+                </div>
+                <div class="produit-desc">
+                    <h4>iphone 11 </h4>
+                    <p>$ 750.99 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/5.png"  alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>tablette Samsung </h4>
+                    <p>$ 750.99 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+
+
+
+
+    <!-- quatrieme section -->
+    <div class="section-electro-menager">
+        <div class="titre">
+            <h2>Produits Electroniques</h2>
+        </div>
+
+        <div class="list-produits">
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/conge.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>Congelateur</h4>
+                    <p>$ 1 500 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/rechaud1.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>Rechaud </h4>
+                    <p>$ 800 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/clim.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>Climatiseur </h4>
+                    <p>$ 750.99 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
+            <div class="produits">
+                <div class="produit-img">
+                    <img src="images/rechaud.jpeg" alt="Image d'un ordinateur">
+                </div>
+                <div class="produit-desc">
+                    <h4>Rechaud </h4>
+                    <p>$ 750.99 </p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
 
 </body>
 </html>
+
+<style>
+
+    .titre {
+        background: linear-gradient(to right, rgb(255, 72, 0), red );
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 2em;
+        margin: 5px;
+    }
+    .list-produits {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .produits {
+        width:15em;
+        text-align: center;
+        margin: 2em;
+
+    }
+    .produit-img {
+        height: 12em;
+
+    }
+
+    .produit-img img {
+        width: 100%;
+
+    }
+
+    .produit-desc p {
+        color: rgb(255, 123, 0);
+    }
+
+    .produit-desc button {
+        background-color: #ff00ff;
+        border-radius: 10px;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .produit-desc h4 {
+        text-transform: capitalize;
+    }
+
+    .produit-desc button:hover {
+        background-color: #ff5100;
+        border-radius: 10px;
+        padding: 10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: large;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .banniere-image img {
+        width: 300px;
+    }
+    #banniere
+    {
+        display: flex;
+        justify-content: center;
+        margin: 10px;;
+    }
+    .banniere-image
+    {
+        margin: 0 50px;
+    }
+
+    #titre {
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        background-color: #000;
+        text-transform: capitalize;
+    }
+
+    /* style liste produits */
+    .produit {
+        width: 250px;
+        margin: 20px;
+
+    }
+
+    .produit-image img {
+        width: 100%;
+        height: 200px;
+
+    }
+    /* .produit-image  {
+        display: ;
+    } */
+    #liste-produits {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .description p {
+        color: #ff0000;
+    }
+
+    .description button {
+        background-color: #000075;
+        /* background-color: #ff5733; */
+        color: #fff;
+        font-size: 1.3em;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .description button:hover {
+        background-color: #fff;
+        color: #000075;
+        /* cursor: pointer; */
+    }
+    
+
+</style>
