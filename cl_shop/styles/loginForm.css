@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #000; */
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+.container {
+    background-color: #000;
+    text-align: center;
+    width: 21.874em;
+    height: 23.5em;
+    margin: 10em auto;
+    padding: 2em;
+    border-radius: 0.4em;
+    box-shadow: 20px 15px 20px #000;
+}
+/* .container:hover {
+    box-shadow: 20px 15px 20px #00ff11;
+    font-size: larger;
+    rotate: -1deg;
+} */
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 2em auto;
+    /* display: block; */
+    border: 1px solid rgb(255, 0, 234);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    background: none;
+}
+div i {
+    margin-right: 5px;
+    font-size: 1.3em;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border:#00ff00;
+    font-size: larger;
+}
+
+input[type=submit] {
+    margin: auto;
+    padding: 0.9em;
+    border-radius: 1.6em;
+    width: 5em;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    font-size: larger;
+    
+}
+
+h1, h3 a {
+    color: #00ff11;
+    text-decoration:none;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-style: italic;
+}
