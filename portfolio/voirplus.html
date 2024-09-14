@@ -7,7 +7,6 @@
     <title>CLSHOP-ACCEUIL</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/ordinateur.css">
     <!-- Link for font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
@@ -58,64 +57,70 @@
               </div>
       </nav>
       <!-- Fin de la barre de navigation -->
-        
-  <div class="container d-flex justify-content-center align-items-center vh-100">
-      <div class="row w-100">
-          <!-- Image à gauche -->
-          <div class="col-md-6 d-none d-md-block">
-            <img class="img-fluid h-100" src="https://absystems.gr/wp-content/uploads/2023/11/store-4156934_1280-870x580.png" alt="">
-          </div>
-          <!-- Formulaire à droite -->
-          <div class="col-md-6 bg-white p-4 shadow-sm rounded">
-              <h2 class="text-center mb-4">Créer un compte</h2>
-              <form>
-                  <!-- Username -->
-                  <div class="mb-3 input-group">
-                      <span class="input-group-text"><i class="fas fa-user"></i></span>
-                      <input type="text" class="form-control" placeholder="Nom d'utilisateur" required>
-                  </div>
-                  <!-- Email -->
-                  <div class="mb-3 input-group">
-                      <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-                      <input type="email" class="form-control" placeholder="Email" required>
-                  </div>
-                  <!-- Password -->
-                  <div class="mb-3 input-group">
-                      <span class="input-group-text"><i class="fas fa-lock"></i></span>
-                      <input type="password" class="form-control" placeholder="Mot de passe" required>
-                  </div>
-                  <!-- Confirm Password -->
-                  <div class="mb-3 input-group">
-                      <span class="input-group-text"><i class="fas fa-lock"></i></span>
-                      <input type="password" class="form-control" placeholder="Confirmer le mot de passe" required>
-                  </div>
-                  <!-- Bouton d'inscription -->
-                  <div class="d-grid">
-                      <button type="submit" class="btn btn-primary">S'inscrire</button>
-                  </div>
-                  <!-- Lien vers la page de connexion -->
-                  <div class="text-center mt-3">
-                      <p>Déjà un compte ? <a href="./connexion.html">Se connecter</a></p>
-                  </div>
-              </form>
-          </div>
-      </div>
-  </div>
-  
-  
-  <!-- pied de page -->
-    <footer class="bg-body-tertiary text-center bg-primary"></footer>
-  
-      <!-- Copyright -->
-      <div class="text-center p-3" ">
-        © 2020 Copyright:
-        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
-    </footer>   
-  <!-- fin pied de page -->
-  </div>
-<!-- Lien vers Bootstrap JS et Popper.js -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+      
+        <div class="container">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../cl_shop/images/pc-ac1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Clshop</h5>
+                            <p style="color: blue;">&#9733; &#9734; &#9734; &#9734;</p>
+                            <p class="card-text">ordinateur portable MicroSoft Laptop Go 3 12.4" Ecran tactile Intel Core i7</p>
+                            <div style="display: flex;">
+                                <p> 6.500.000 GNF <s>7.500.000 GNF</s> <span style="color: red;">-11%</span></p>
+                            </div>
+                            <button class="btn btn-primary">acheter</button>
+                            <p class="card-text"><small class="text-body-secondary">PC portable - MacroSoft</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+    </body>
+    </html>
+    <style>
+      
+      .container {
+          height: 100vh; 
+          display: flex;
+          align-items: center; 
+          justify-content: center; 
+          
+      }
+      .card {
+          width: 100%;
+          max-width: 1200px; 
+          height: 100%;
+          display: flex;
+          flex-direction: column; 
+          border: none; 
+          border-radius: 0; 
+          box-shadow: none; 
+      }
+      .card img {
+          width: 100%;
+          height: auto; 
+      }
+      .card-body {
+          padding: 20px;
+          flex: 1; 
+      }
+      .card-title {
+          font-size: 2rem; 
+      }
+      .card-text {
+          font-size: 1.5rem; 
+      }
+      .btn-primary {
+          font-size: 1.5rem; 
+          padding: 12px 24px; 
+      }
+      .card-body p {
+          font-size: 1.2rem; 
+      }
+  </style>
